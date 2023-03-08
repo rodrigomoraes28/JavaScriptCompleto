@@ -2,6 +2,7 @@ var idade = 23;
 
 console.log(idade);
 
+//"e" é a exponenciação com base 10, com nada é positivo ja com - é negativo
 var idade = 2e2;
 console.log(idade);
 
@@ -9,7 +10,6 @@ var idade = 2e-2;
 console.log(idade);
 
 //certa precisão para até 15 digitos
-
 
 //Operadores Aritiméticos:
 
@@ -22,12 +22,11 @@ console.log(divisao);
 console.log(modulo);
 
 //Sempre que eu junto um número com uma string eu estou CONCATENANDO ela
- 
-var soma = '100' + 50 // 10050 , esse 10050 é uma string e não um número
-var subtracao = '100' - 50; // 50, como não existe subtraçaõ de string ele tenta converter esse '100' para number e daí subtrai 50 dele e fica 50 e em number
-var multiplicacao = '100' * '2'; // 200 , funciona igual para a subtracao
-var divisao = 'Comprei 10 ' / 2; // Nan (Not a Number)
 
+var soma = "100" + 50; // 10050 , esse 10050 é uma string e não um número
+var subtracao = "100" - 50; // 50, como não existe subtraçaõ de string ele tenta converter esse '100' para number e daí subtrai 50 dele e fica 50 e em number
+var multiplicacao = "100" * "2"; // 200 , funciona igual para a subtracao
+var divisao = "Comprei 10 " / 2; // Nan (Not a Number)
 
 console.log(soma);
 console.log(subtracao);
@@ -39,11 +38,10 @@ console.log(isNaN(divisao));
 
 //Outro exemplo
 
-
 var numero = 80;
-var unidade = 'kg';
+var unidade = "kg";
 var peso = numero + unidade; //'80kg'
-var pesoPorDois = peso / 2 //NaN (Not a Number)
+var pesoPorDois = peso / 2; //NaN (Not a Number)
 
 console.log(peso);
 console.log(pesoPorDois);
